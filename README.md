@@ -5,7 +5,7 @@
 [![Tests](https://img.shields.io/badge/Tests-Included-brightgreen.svg)](./Tests)
 [![Help Wanted](https://img.shields.io/badge/Help-Unit%20Tests%20Welcome!-blueviolet.svg)](./Tests)
 
-This repository demonstrates the D* Lite pathfinding algorithm implemented in Unity, offering a visual and interactive way to understand it. For a more detailed explanation of the D* Lite algorithm from a theoretical perspective, please refer to my accompanying documentation: [Link to Your PDF Documentation Here].
+This repository demonstrates the D* Lite pathfinding algorithm implemented in Unity, offering a visual and interactive way to understand it. For a more detailed explanation of the D* Lite algorithm from a theoretical perspective, please refer to my accompanying documentation: [D* Lite Pathfinding Documentation](DStar_Lite_Pathfinding.pdf).
 
 ![image](https://github.com/user-attachments/assets/1ae6d5b6-e55f-4953-951c-20d094c1befa)
 
