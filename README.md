@@ -5,19 +5,9 @@
 [![Tests](https://img.shields.io/badge/Tests-Included-brightgreen.svg)](./Tests)
 [![Help Wanted](https://img.shields.io/badge/Help-Unit%20Tests%20Welcome!-blueviolet.svg)](./Tests)
 
-This repository demonstrates the D* Lite pathfinding algorithm implemented in Unity, offering a visual and interactive way to understand it. For a more detailed explanation of the D* Lite algorithm from a theoretical perspective, please refer to my accompanying documentation: [D* Lite Pathfinding Documentation](DStar_Lite_Pathfinding.pdf).
+This repository demonstrates the D* Lite pathfinding algorithm implemented in Unity, offering a visual and interactive way to understand it. For a more detailed explanation of the D* Lite algorithm from a theoretical perspective, please refer to my accompanying documentation: [D* Lite Pathfinding Documentation](DStar_Lite_Pathfinding.pdf). Ensure that you have TextMeshProUGUI installed for Unity. 
 
 ![image](https://github.com/user-attachments/assets/1ae6d5b6-e55f-4953-951c-20d094c1befa)
-
-### Running the Scene
-
-1.  **Clone the Repository:** Clone this repository to your local machine.
-    ```bash
-    git clone [https://github.com/your_username/your_repo_name.git](https://github.com/your_username/your_repo_name.git)
-    ```
-2.  **Open in Unity:** Open the Unity Hub and add the cloned project. Then, open the project in the Unity Editor.
-3.  **Open the Scene:** Navigate to your main scene file in the Project window (e.g., `Assets/MainScene`).
-4.  **Run the Scene:** Press the Play button in the Unity Editor.
 
 ## Input
 
