@@ -1,2 +1,49 @@
-# dstar-lite-pathfinding
-D* Lite Pathfinding
+# D* Lite Pathfinding in Unity
+
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Unity Version](https://img.shields.io/badge/Unity-2021.x+-lightgrey.svg)](https://unity.com/)
+[![Tests](https://img.shields.io/badge/Tests-Included-brightgreen.svg)](./Tests)
+[![Help Wanted](https://img.shields.io/badge/Help-Unit%20Tests%20Welcome!-blueviolet.svg)](./Tests)
+
+This repository demonstrates the D* Lite pathfinding algorithm implemented in Unity, offering a visual and interactive way to understand it. For a more detailed explanation of the D* Lite algorithm from a theoretical perspective, please refer to my accompanying documentation: [Link to Your PDF Documentation Here].
+
+![image](https://github.com/user-attachments/assets/1ae6d5b6-e55f-4953-951c-20d094c1befa)
+
+### Running the Scene
+
+1.  **Clone the Repository:** Clone this repository to your local machine.
+    ```bash
+    git clone [https://github.com/your_username/your_repo_name.git](https://github.com/your_username/your_repo_name.git)
+    ```
+2.  **Open in Unity:** Open the Unity Hub and add the cloned project. Then, open the project in the Unity Editor.
+3.  **Open the Scene:** Navigate to your main scene file in the Project window (e.g., `Assets/MainScene`).
+4.  **Run the Scene:** Press the Play button in the Unity Editor.
+
+## Input
+
+Interact with the environment using the mouse:
+
+* **Left Click:** Set a new target destination for the agent.
+* **Right Click:** Toggle the traversability of a cell (walkable/unwalkable).
+* **Spacebar:** Pressing the spacebar will print snapshots of the most recently found path information to the console. This provides textual details about the `gCost`, `rhsCost`, `hCost`, and `key.k1` of the cells along the current path.
+
+## Visual Information & Snapshots (Spacebar)
+
+The grid uses colors to represent the state of each cell:
+
+* **Yellow:** Target vertex.
+* **Black:** Unwalkable vertex.
+* **Red:** Inconsistent vertex (`gCost != rhsCost`).
+* **Grey:** Default walkable vertex.
+* **Blue:** Consistent, processed vertex.
+
+Pressing the **Spacebar** will output snapshots of the most recent computed path to the Unity console. For each cell in the path, you will see:
+
+* **Top Left:** `gCost`
+* **Top Right:** `rhsCost`
+* **Bottom Right:** `hCost (hCost == -1 means null)`
+* **Middle:** `key.k1 (key.k1 == -1 means null)`
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more details.
+
+
